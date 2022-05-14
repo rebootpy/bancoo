@@ -1,0 +1,70 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: arial;
+
+}
+
+.flex {
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logotipo {
+	color: #fff;
+	background: #b5bd00;
+    box-shadow: inset 0 0 2px rgb(0 0 0 / 20%);
+    border: 1px solid #d5d5da;
+	padding: 10px;
+	margin-right: 10px;
+	width: 55px;
+	text-align: center;
+	border-radius: 50%;
+}
+.verficacion {
+	text-transform: uppercase;
+}
+
+form {
+	padding-top: 50px;
+}
+.formulario {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form input {
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	width: 300px;
+}
+form label {
+	text-transform: uppercase;
+}
+.one {
+	margin-top: 10px;
+	padding-bottom: 5px;
+}
+form h1 {
+	text-align: center;
+	padding-bottom: 20px;
+	width: 320px;
+	font-size: 15px;
+}
+button {
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 94%;
+	background: #b5bd00;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	text-transform: uppercase;
+}
